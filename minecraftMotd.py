@@ -1,14 +1,10 @@
 import socket
-import re
 
 ip = input("Enter the IP address of the server: 192.168.")
 if ip != "":
     ip = "192.168." + ip
 else:
     ip = input("Enter the IP address of the server:")
-#TCP_IP = '176.9.20.205'
-#TCP_IP = '192.168.0.2'
-
 
 BUFFER_SIZE = 550
 
